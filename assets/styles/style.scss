@@ -38,6 +38,7 @@ header {
   nav ul {
     @extend %nav-style;
     .menu {
+      font-family: $font-family;
       margin-right: 20px;
       text-decoration: none;
       font-size: 18px;
@@ -575,10 +576,10 @@ header {
     line-height: 40px;
     word-break: break-all;
     @media (max-width: 1024px) {
-      font-size: 1.5vw;
+      font-size: 1.4vw;
     }
     @media (max-width: 765px) {
-      font-size: 12px;
+      font-size: 11px;
       max-width: 350px;
       line-height: 20px;
     }

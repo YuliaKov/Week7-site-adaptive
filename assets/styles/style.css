@@ -70,6 +70,7 @@ header .logo {
   }
 }
 header nav ul .menu {
+  font-family: "Roboto", sans-serif;
   margin-right: 20px;
   text-decoration: none;
   font-size: 18px;
@@ -712,12 +713,12 @@ header .text_button {
 }
 @media (max-width: 1024px) {
   .products .products-parameters {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
   }
 }
 @media (max-width: 765px) {
   .products .products-parameters {
-    font-size: 12px;
+    font-size: 11px;
     max-width: 350px;
     line-height: 20px;
   }
