@@ -718,12 +718,14 @@ header .text_button {
 @media (max-width: 765px) {
   .products .products-parameters {
     font-size: 12px;
+    max-width: 350px;
     line-height: 20px;
   }
 }
 @media (max-width: 375px) {
   .products .products-parameters {
     font-size: 11px;
+    max-width: 310px;
   }
 }
 

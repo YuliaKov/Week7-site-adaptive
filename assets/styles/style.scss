@@ -579,10 +579,12 @@ header {
     }
     @media (max-width: 765px) {
       font-size: 12px;
+      max-width: 350px;
       line-height: 20px;
     }
     @media (max-width: 375px) {
       font-size: 11px;
+      max-width: 310px;
     }
   }
 }
